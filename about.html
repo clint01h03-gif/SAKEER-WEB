@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Tech Zone Tuition Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Tech Zone</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Now</a></li>
+                <li><a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" class="nav-cta" style="background: linear-gradient(135deg, #22d3ee, #06b6d4); box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);">Developer</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="courses.html" onclick="closeMenu()">Courses</a>
+        <a href="teachers.html" onclick="closeMenu()">Teachers</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+        <a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Developer</a>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" style="padding-top:120px;">
+        <div class="section-header reveal">
+            <div class="section-tag">About Us</div>
+            <h2>Building Bright Futures<br>Since 2022</h2>
+            <p>We believe every student has unique potential. Our mission is to unlock it through smart teaching and care.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-content reveal">
+                <h3>Why Tech Zone Stands Out</h3>
+                <p>At Tech Zone Academy, we combine traditional values with modern teaching methods. Small batches, individual attention, and regular performance tracking make us the preferred choice for parents across Kerala.</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">📚</div>
+                        <div class="feature-text">
+                            <h4>Concept Clarity First</h4>
+                            <p>We focus on deep understanding, not just rote learning.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">👥</div>
+                        <div class="feature-text">
+                            <h4>Small Batch Size</h4>
+                            <p>Maximum 30 students per class for personal attention.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-text">
+                            <h4>Regular Assessments</h4>
+                            <p>Weekly tests + monthly parent meetings to track progress.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏠</div>
+                        <div class="feature-text">
+                            <h4>Hybrid Learning</h4>
+                            <p>Offline + Online classes available for flexibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image reveal">
+                <div class="glass about-img-card">
+                    <div class="about-img-placeholder">
+                        🎓
+                        <span>Inspiring Young Minds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <script src="js/script.js"></script>
+</body>
+</html>

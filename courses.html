@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Tech Zone Tuition Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/courses.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Tech Zone</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Now</a></li>
+                <li><a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" class="nav-cta" style="background: linear-gradient(135deg, #22d3ee, #06b6d4); box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);">Developer</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="courses.html" onclick="closeMenu()">Courses</a>
+        <a href="teachers.html" onclick="closeMenu()">Teachers</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+        <a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Developer</a>
+    </div>
+
+    <!-- ========== COURSES ========== -->
+    <section id="courses" style="padding-top:140px;">
+        <div class="section-header reveal">
+            <div class="section-tag">Our Programs</div>
+            <h2>Subject Designed for<br>Every Student</h2>
+            <p>From foundational years to board exam excellence — we have the right program for your child.</p>
+        </div>
+        <div class="courses-grid">
+            <div class="glass course-card reveal">
+                <div class="course-icon">🌱</div>
+                <h3>Foundation </h3>
+                <p>We provide students with a strong foundation for their studies, helping them build the knowledge and confidence needed for future success</p>
+                <div class="course-meta">
+                    <span class="course-tag">SFT</span>
+                    <span class="course-tag">ELECTRICLE</span>
+                </div>
+            </div>
+            <div class="glass course-card reveal">
+                <div class="course-icon">📖</div>
+                <h3>Excellent Subject Decoding</h3>
+                <p>Clear and Comprehensive Subject Explanation</p>
+                <div class="course-meta">
+                    <span class="course-tag">All Boards</span>
+                    <span class="course-tag">Olympiad Prep</span>
+                </div>
+            </div>
+            <div class="glass course-card reveal">
+                <div class="course-icon">🎯</div>
+                <h3>Strong Motivation Support</h3>
+                <p>We will also provide students with strong motivation and continuous encouragement to help them stay focused and confident in their studies</p>
+                <div class="course-meta">
+                    <span class="course-tag">Future</span>
+                    <span class="course-tag">Career</span>
+                    <span class="course-tag">Planning</span>
+                </div>
+            </div>
+            <div class="glass course-card reveal">
+                <div class="course-icon">🚀</div>
+                <h3>Knock Down Papers</h3>
+                <p>The paper-guessing sessions will be highly effective and beneficial, helping students prepare with greater confidence and focus</p>
+                <div class="course-meta">
+                    <span class="course-tag">SFT</span>
+                    <span class="course-tag">ELECTRICLE</span>
+                </div>
+            </div>
+            <div class="glass course-card reveal">
+                <div class="course-icon">🧮</div>
+                <h3>Subject Special</h3>
+                <p>We help students who are struggling academically through motivation, proper guidance, and continuous support, enabling them to study with confidence and achieve their goals</p>
+                <div class="course-meta">
+                    <span class="course-tag">1-on-1 Available</span>
+                    <span class="course-tag">Crash Subject</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <script src="js/script.js"></script>
+</body>
+</html>

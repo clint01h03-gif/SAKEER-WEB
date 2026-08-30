@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Tech Zone Tuition Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Tech Zone</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Now</a></li>
+                <li><a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" class="nav-cta" style="background: linear-gradient(135deg, #22d3ee, #06b6d4); box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);">Developer</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="courses.html" onclick="closeMenu()">Courses</a>
+        <a href="teachers.html" onclick="closeMenu()">Teachers</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+        <a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Developer</a>
+    </div>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" style="padding-top:140px;">
+        <div class="section-header reveal">
+            <div class="section-tag">Get In Touch</div>
+            <h2>Start Your Journey Today</h2>
+            <p>Have questions? Want to enroll? Fill the form or reach us directly.</p>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-info reveal">
+                <div class="glass contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Visit Us</h4>
+                        <p>periyatru munai, Kinniya-04<br>Trincomalee - 686001</p>
+                    </div>
+                </div>
+                <div class="glass contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <h4>Call / WhatsApp</h4>
+                        <p>+91 98765 43210<br>+91 98765 43211</p>
+                    </div>
+                </div>
+                <div class="glass contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@luminatution.com<br>admissions@luminatution.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass contact-form reveal">
+                <form id="enquiryForm" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label>Student Name</label>
+                        <input type="text" placeholder="Enter student full name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Date of Birth</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Year</label>
+                            <select required>
+                                <option value="">Select Year</option>
+                                <option>2025-26</option>
+                                <option>2026-27</option>
+                                <option>2027-28</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <select required>
+                            <option value="">Select Subject</option>
+                            <option>Mathematics</option>
+                            <option>Physics</option>
+                            <option>Chemistry</option>
+                            <option>Biology</option>
+                            <option>English</option>
+                            <option>Malayalam</option>
+                            <option>Accountancy</option>
+                            <option>All Subjects</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message (Optional)</label>
+                        <textarea placeholder="Any specific queries or requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                        Submit Enquiry →
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Tech Zone</a>
+                <p>Empowering students with quality education and personalised coaching since 2010.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="teachers.html">Teachers</a>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <a href="courses.html">Foundation</a>
+                <a href="courses.html">Board Prep</a>
+                <a href="courses.html">Plus Two</a>
+                <a href="courses.html">Competitive</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+                <a href="mailto:hello@luminatution.com">hello@luminatution.com</a>
+                <a href="contact.html">Get Directions</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Tech Zone Tuition Academy. All rights reserved.</p>
+            <div class="socials">
+                <a href="#" title="WhatsApp">📱</a>
+                <a href="#" title="Instagram">📸</a>
+                <a href="#" title="TikTok">🎵</a>
+                <a href="#" title="YouTube">▶️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

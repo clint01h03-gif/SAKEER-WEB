@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Tech Zone Tuition Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/update.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Tech Zone</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Now</a></li>
+                <li><a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" class="nav-cta" style="background: linear-gradient(135deg, #22d3ee, #06b6d4); box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);">Developer</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="courses.html" onclick="closeMenu()">Courses</a>
+        <a href="teachers.html" onclick="closeMenu()">Teachers</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+        <a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Developer</a>
+    </div>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span></span>
+                    Admissions Open for 2028 student's
+                </div>
+                <h1>Smart Learning<br>Starts at <span>Tech Zone</span></h1>
+                <p>SRILANKA's most trusted tuition centre for SFT,ELECTRICLE. Expert teachers, personal attention, and proven results from A/L first year - Exam.</p>
+                <div class="hero-btns">
+                    <a href="contact.html" class="btn btn-primary">
+                        Enroll Now →
+                    </a>
+                    <a href="courses.html" class="btn btn-glass">
+                        View Courses
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass glass-strong hero-card">
+                    <div class="hero-card-inner">
+                        <div class="live-badge">
+                            <div class="live-dot"></div>
+                            Live Classes Running
+                        </div>
+                        <h3 style="font-family:'Space Grotesk'; font-size:1.4rem; margin-bottom:0.5rem;">Why Students Choose Us</h3>
+                        <p style="color:var(--text-muted); font-size:0.95rem; margin-bottom:0.5rem;">Personalised coaching with small batch sizes</p>
+                        <div class="stat-grid">
+                            <div class="stat-item">
+                                <div class="stat-num">4+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-num">2500+</div>
+                                <div class="stat-label">Students Taught</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-num">98%</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-num">40+</div>
+                                <div class="stat-label">Expert Teachers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RECENT UPDATE / SEMINAR ========== -->
+    <section class="update-section" id="update">
+        <div class="section-header reveal">
+            <div class="section-tag">Recent Update</div>
+            <h2>Upcoming Seminar</h2>
+            <p>Don't miss our special IoT & E-Commerce Seminar this month!</p>
+        </div>
+        <div class="update-wrapper reveal">
+            <div class="update-badge">
+                <span></span>
+                Update Of The Year * Limited Seats
+            </div>
+            <div class="glass glass-strong update-card">
+                <img src="ADD01.png" alt="IoT & E-Commerce Seminar by Sajeeth - mr.ict" class="update-poster" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

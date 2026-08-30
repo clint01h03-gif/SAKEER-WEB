@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers | Tech Zone Tuition Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/teachers.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">Tech Zone</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" class="nav-cta">Join Now</a></li>
+                <li><a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" class="nav-cta" style="background: linear-gradient(135deg, #22d3ee, #06b6d4); box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);">Developer</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="courses.html" onclick="closeMenu()">Courses</a>
+        <a href="teachers.html" onclick="closeMenu()">Teachers</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+        <a href="https://halfan.vercel.app/" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Developer</a>
+    </div>
+
+    <!-- ========== TEACHERS ========== -->
+    <section id="teachers" style="padding-top:140px;">
+        <div class="section-header reveal">
+            <div class="section-tag">Our Faculty</div>
+            <h2>Learn from the Best</h2>
+            <p>Experienced educators who are passionate about teaching and student success.</p>
+        </div>
+        <div class="teachers-grid">
+            <div class="glass teacher-card reveal">
+                <div class="teacher-avatar"><img src="assets/images/profile.png" alt="SAKEER SIR"></div>
+                <h3>SAKEER SIR</h3>
+                <div class="teacher-subj">SFT, ELECTRICLE • 6 yrs</div>
+                <p>Electrical Engineer</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
